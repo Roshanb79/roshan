@@ -161,11 +161,11 @@ div.downloadCv{
     align-items: center;
     flex-direction: row;
 }
-div.downloadCv > div{
+div.downloadCv > a> div{
   width: 200px;
   height: 50px;
 }
-div.downloadCv > div > input{
+div.downloadCv > a > div > input{
     width: 100%;
     height: 100%;
     border:none;
@@ -175,7 +175,7 @@ div.downloadCv > div > input{
     color: var(--white);
 
   }
-div.downloadCv > div > input:hover{
+div.downloadCv > a> div > input:hover{
     background-color: #00A5D6;
   }
 footer{
